@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
    margin: auto 0;
-    color:white;
-    font-size:16px;
-
+    
+   font-family: Roboto;
 }
 
 body {
 background: rgb(31, 30, 30);
 color:rgb(230, 228, 228);
-font-family: Roboto;
+color:white;
+font-size:16px;
 }
 section {
    padding:40px 0;
