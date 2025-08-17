@@ -9,9 +9,10 @@
 /* Colors */
    --white-color: #fff;
    --dark-color: #252525;
-   --primary-color: #3b141c;
-   --secondary-color: #f3961c;
-   --light-pink-color: #faf4f5;
+   --darker-color:rgb(49, 49, 49);
+   --primary-color: #e5e5e5;
+   --secondary-color: #0984c2;
+   --light-blue-color: #8bb4c8;
    --medium-gray-color: #ccc;
 
    
@@ -100,9 +101,10 @@ nav a {
         margin-right:5px;
         text-decoration: none;
         padding:5px;
+        color:  var(--white-color);
     }
 nav a:hover {
-        color:rgb(219, 219, 21);
+        color:var(--secondary-color);
         font-weight: 600;
     }
 nav ul li {
@@ -117,7 +119,7 @@ nav ul li {
         
     }
 .section-bg {
-    background-color: rgb(49, 49, 49);
+    background: var(--darker-color);
     
 }
 .works {
