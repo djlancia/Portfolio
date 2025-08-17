@@ -25,6 +25,13 @@
    --font-size-xxl: 2.3rem;
    
 /* Font weight */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+/*site max width */
+    --site-max-width: 1300px;
 
 }
 
@@ -36,31 +43,35 @@ color: var(--white-color);
 font-size:16px;
 font-family: Roboto;
 }
+
 section {
    padding:40px 0;
    
 }
 
 p {
-    font-size: 1em;
+    font-size: var(--font-size-n);
+    font-weight: var(--font-weight-normal);
 }
 
 h1 {
-    font-size:1.7em;
+   font-size: var(--font-size-xl);
+   font-weight: var(--font-weight-bold);
 }
 
 h2 {
-    font-size:1.2em;
+    font-size: var(--font-size-l)
 
 }
 
 h3 {
-    font-size:.9em;
+     font-size: var(--font-size-m)
 }
 
 h4 {
-    font-size: .8em;
+   font-size: var(--font-size-s)
 }
+
 header {
      
     display:flex;
@@ -72,6 +83,7 @@ header {
     background-size: cover;
     height:70vh;
 }
+
 .overlay {
     display:flex;
     width:100%;
@@ -80,10 +92,28 @@ header {
     
 }
 #intro {
-    max-width: 1140px;
+    max-width: var(--site-max-width);
     margin: 0 auto;
     display: flex;
   
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    
+}
+img {
+    width:100%;
 }
 
     nav {
@@ -92,6 +122,9 @@ header {
     text-align: start;
     flex-direction: row;
     }
+
+
+
 .logo {
     width:75%;
 }
@@ -99,17 +132,15 @@ nav a {
         display: block;
         text-transform: uppercase;
         margin-right:5px;
-        text-decoration: none;
         padding:5px;
         color:  var(--white-color);
     }
 nav a:hover {
         color:var(--secondary-color);
-        font-weight: 600;
     }
 nav ul li {
         display: inline-block;
-        list-style-type: none;
+      
     }
 .flex-container {
         display:flex;
@@ -132,7 +163,7 @@ nav ul li {
         text-transform: uppercase;
     }
 .works p {
-        font-size: .8em;
+        font-size: var(--font-size-s);
     }
 
  .items {
@@ -167,7 +198,7 @@ nav ul li {
 
 }
 .contact h2 {
-    font-size:2.3em;
+    font-size:var(--font-size-xl);
     margin-bottom:.5em;
     text-transform: uppercase;
 }
