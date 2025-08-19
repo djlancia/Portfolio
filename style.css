@@ -207,7 +207,6 @@ img {
 @media screen and (max-width:975px) {
     .navbar .nav-logo .logo-text {
     font-size: var(--font-size-l);
-    border:1px solid red;
 
 }
 }
