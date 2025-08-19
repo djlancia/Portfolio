@@ -84,7 +84,6 @@ img {
     margin: 0 auto;
     padding: 0 20px;
     max-width: var(--site-max-width);
-    justify-content: space-evenly;
 }
 
 
@@ -196,7 +195,7 @@ img {
 
 
 /* Mobile Responsive */
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 900px) {
  
     #menu-close-button, #menu-open-button {
    display:none;
@@ -207,12 +206,13 @@ img {
 @media screen and (max-width:975px) {
     .navbar .nav-logo .logo-text {
     font-size: var(--font-size-l);
+    
 
 }
 }
 
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 900px) {
 
     :root {
         --font-size-m: 1rem;
