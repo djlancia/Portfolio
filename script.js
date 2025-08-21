@@ -1,5 +1,4 @@
 
-
 const menuOpenButton = document.querySelector("#menu-open-button");
 
 
@@ -13,3 +12,4 @@ menuOpenButton.addEventListener("click", () => {
 })
 
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
