@@ -1,4 +1,5 @@
-/* dom-functions.js */
+alert('hello hoe')
+/* dom-functions.js 
 const toggleHiddenElement = (domElement) => {
     if (domElement.style.display === 'none') {
       domElement.style.display = 'block';
@@ -15,4 +16,4 @@ const changeToFunkyColor = (domElement) => {
   domElement.style.background = `rgb(${r}, ${g}, ${b})`;
 }
 
-export { toggleHiddenElement, changeToFunkyColor };
+export { toggleHiddenElement, changeToFunkyColor };*/
