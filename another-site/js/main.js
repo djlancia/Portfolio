@@ -1,3 +1,5 @@
+alert('hello hoe')
+
 const buttonElement = document.getElementById('secret-button');
 const pElement = document.getElementById('secret-p');
 
