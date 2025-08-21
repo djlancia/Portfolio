@@ -4,9 +4,12 @@ body {
 }
 
 p {
-    font-size:16px;
+    font-size:1.9em;
 }
 
-#secret-p {
-    display:none;
+button {
+    font-size: 2em;
 }
+
+
+
