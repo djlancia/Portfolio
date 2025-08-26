@@ -194,7 +194,7 @@ img {
 
 
 
-/* Mobile Responsive */
+/* Mobile Responsive nav on large screens */
 @media screen and (min-width: 900px) {
  
     #menu-close-button, #menu-open-button {
@@ -211,7 +211,7 @@ img {
 }
 }
 
-
+/* Mobile Responsive small screens */
 @media screen and (max-width: 900px) {
 
     :root {
@@ -221,7 +221,7 @@ img {
         --font-size-xxl: 1.8rem;
 
     }
-
+/* blurr bg navi */
     body.show-mobile-menu header::before {
         content: "";
         position:fixed;
