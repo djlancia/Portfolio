@@ -232,7 +232,7 @@ img {
 
 
 
-/* About Section */
+/* About Section */ 
 
 .about-section {
     padding: 120px 0;
@@ -354,7 +354,7 @@ body.show-mobile-menu nav .nav-menu {
         width:100%;
     }
 
-.hero-section .section-content {
+.hero-section .section-content{
     flex-direction: column-reverse;
     justify-content: center;
     gap: 50px;
@@ -363,12 +363,14 @@ body.show-mobile-menu nav .nav-menu {
 }
 
 .hero-section .hero-image-wrapper {
-    max-width: 270px;
+    max-width: 400px;
     margin-right: 0;
 }
 
 .hero-section .hero-details :is(.subtitle, .description) {
     max-width: 100%;
+    margin:20px 60px 40px;
+    font-size: var(--font-size-l);
 
 
 }
@@ -377,6 +379,19 @@ body.show-mobile-menu nav .nav-menu {
     justify-content: center;
 }
 
+/* about section*/
+.about-section .section-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    padding: 30px 20px 20px;
+
+}
+.about-section .about-image-wrapper .about-image {
+    width: 350px;
+    height:350px;
+}
 
 }
     
