@@ -31,6 +31,8 @@
 
 /*site max width */
     --site-max-width: 1300px;
+    --border-radius-circle:200px;
+    --border-radius-sm: 50px;
 
 
 }
@@ -86,8 +88,23 @@ img {
     max-width: var(--site-max-width);
 }
 
+.section-title {
+    text-align: center;
+    padding: 60px 0 100px;
+    text-transform: uppercase;
+    font-size: var(--font-size-xl);
 
-
+}
+    
+.section-title::after{
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    background-color: var(--accent-color);
+    margin: 10px auto;
+    border-radius: var(--border-radius-sm);
+}
 
 
 /* Styles for Navigation */
@@ -171,6 +188,7 @@ img {
 .hero-section .hero-details .buttons {
     display:flex;
     gap: 23px;
+    
 }
 .hero-section .hero-details .button {
     padding:10px 26px;
@@ -178,6 +196,7 @@ img {
     color: var(--secondary-color);
     font-size: var(--font-size-n);
     transition: 0.3s ease;
+    border-radius: var(--border-radius-sm);
 
 }
 .hero-section .hero-details .button:hover {
@@ -209,6 +228,58 @@ img {
     
 
 }
+}
+
+
+
+/* About Section */
+
+.about-section {
+    padding: 120px 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.about-section .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.about-section .about-image-wrapper .about-image {
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+
+.about-section .about-details .section-title {
+    padding: 0;
+
+}
+
+.about-section .about-details .text {
+    line-height: 30px;
+    margin: 50px 0 30px;
+    text-align: center;
+    font-size: var(--font-size-m);
+
+
+}
+
+.about-section .about-details .social-link-list {
+    display: flex;
+    gap:25px;
+    justify-content: center;
+
+}
+.about-section .about-details .social-link-list .social-links {
+    color: var(--accent-color);
+    font-size: var(--font-size-l);
+}
+.about-section .about-details .social-link-list .social-links:hover {
+    color: var(--secondary-color);
 }
 
 /* Mobile Responsive small screens */
