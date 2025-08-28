@@ -355,7 +355,7 @@ img {
 
 
 /* Mobile Responsive small screens 900px */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 728px) {
 
     :root {
         --font-size-m: 1rem;
