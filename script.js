@@ -18,6 +18,7 @@ menuCloseButton.addEventListener("click", () => menuOpenButton.click());
 const swiper = new Swiper('.slider-wrapper', {
  
   loop: true,
+  grabCursor: true,
   spaceBetween: 25,
   autoplay: {
     delay: 5000,
@@ -27,6 +28,8 @@ const swiper = new Swiper('.slider-wrapper', {
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true,
   },
 
   // Navigation arrows

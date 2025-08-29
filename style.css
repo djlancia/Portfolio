@@ -338,7 +338,10 @@ img {
     padding: 50px 0 100px;
     
 }
-
+.testimonials-section .slider-wrapper {
+    overflow: hidden;
+    margin: 0 60px 50px;
+}
 .testimonials-section .testimonial {
     display: flex;
     flex-direction: column;
@@ -364,6 +367,28 @@ img {
 .testimonials-section .testimonial .feedback {
     line-height: 25px;
 }
+
+.testimonials-section .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--accent-color);
+}
+.testimonials-section .swiper-slide-button { 
+    color: var(--accent-color);
+
+
+}
+.testimonials-section .swiper-pagination-bullet:hover {
+    background: var(--secondary-color);
+    transition: 0.3s ease;
+}
+
+.testimonials-section .swiper-slide-button:hover {
+    color: var(--secondary-color);
+    transition: 0.3s ease;
+}
+
 
 /* Mobile Responsive max wisth 1024 */
 @media screen and (max-width: 1024px) {
