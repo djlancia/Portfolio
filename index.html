@@ -16,6 +16,10 @@
 <!-- linking font awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- linking swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
 <script src="https://kit.fontawesome.com/4e7a25e036.js" crossorigin="anonymous"></script>
 </head>
 
@@ -126,35 +130,38 @@
     <h2 class="section-title">Testimonials</h2>
     <div class="section-content">
         
-        <div class="slider-container">
+        <div class="slider-container swiper">
             <div class="slider-wrapper">
-                <ul class="testimonials-list">
-                    <li class="testimonial">
+                <ul class="testimonials-list swiper-wrapper">
+                    <li class="testimonial swiper-slide">
                         <img src="img/user1.jpg" alt="User" class="user-image">
                         <h3 class="name">Jackie Richardson</h3>
                         <i class="feedback">"Great reliable service with remarkable customer service."</i>
                     </li>
-                     <li class="testimonial">
+                     <li class="testimonial swiper-slide">
                         <img src="img/user2.jpg" alt="User" class="user-image">
                         <h3 class="name">Will Smith</h3>
                         <i class="feedback">"Great reliable service with remarkable customer service."</i>
                     </li>
-                     <li class="testimonial">
+                     <li class="testimonial swiper-slide">
                         <img src="img/user3.jpg" alt="User" class="user-image">
                         <h3 class="name">Robert Smith</h3>
                         <i class="feedback">"Great reliable service with remarkable customer service."</i>
                     </li>
-                     <li class="testimonial">
+                     <li class="testimonial swiper-slide">
                         <img src="img/user4.jpg" alt="User" class="user-image">
                         <h3 class="name">Kim Lo</h3>
                         <i class="feedback">"Great reliable service with remarkable customer service."</i>
                     </li>
-                     <li class="testimonial">
+                     <li class="testimonial swiper-slide">
                         <img src="img/user5.jpg" alt="User" class="user-image">
                         <h3 class="name">Albert Lopez</h3>
                         <i class="feedback">"Great reliable service with remarkable customer service."</i>
                     </li>
                 </ul>
+                <div class="swiper-pagination"></div>
+                 <div class="swiper-button-prev"></div>
+                 <div class="swiper-button-next"></div>
             </div>
         </div>
 
@@ -164,7 +171,9 @@
 
 
 </main>
-
+<!-- linking swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- main scriptt -->
 <script src="script.js"></script> 
 </body>
 </html>

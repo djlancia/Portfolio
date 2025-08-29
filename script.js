@@ -12,3 +12,39 @@ menuOpenButton.addEventListener("click", () => {
 })
 
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
+
+/* initialize swiper */
+
+const swiper = new Swiper('.slider-wrapper', {
+ 
+  loop: true,
+  spaceBetween: 25,
+  autoplay: {
+    delay: 5000,
+  },
+  
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+// responsive breakpoints
+  breakpoints: {
+    0: {
+        slidesPerView: 1
+    },
+     768: {
+        slidesPerView: 2
+    },
+     1024: {
+        slidesPerView: 3
+    }
+  }
+
+});
